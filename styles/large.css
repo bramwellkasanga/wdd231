@@ -1,0 +1,160 @@
+@media (min-width: 700px) {
+  .header-inner,
+  .page-shell,
+  .footer-inner {
+    width: min(1120px, calc(100% - 64px));
+  }
+
+  .header-inner {
+    min-height: 88px;
+  }
+
+  .identity {
+    gap: 15px;
+  }
+
+  .logo-frame {
+    width: 64px;
+    height: 48px;
+  }
+
+  .site-logo {
+    width: 62px;
+    height: 46px;
+  }
+
+  .student-name {
+    font-size: 1.08rem;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .site-nav,
+  .site-nav.is-open {
+    position: static;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .nav-link {
+    padding: 10px 16px;
+  }
+
+  .page-title {
+    padding: 44px 0 26px;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  .home-grid {
+    grid-template-columns: minmax(0, 1.5fr) minmax(260px, 0.85fr);
+    gap: 22px;
+    padding-bottom: 58px;
+  }
+
+  .panel {
+    padding: 26px;
+  }
+
+  .about-panel {
+    min-height: 285px;
+  }
+
+  .about-copy {
+    max-width: 660px;
+    padding-top: 22px;
+  }
+
+  .about-copy p {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
+  .photo-panel {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .profile-figure {
+    margin-top: 22px;
+  }
+
+  .profile-image {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .courses-panel {
+    grid-column: 1 / -1;
+    padding: 26px;
+  }
+
+  .courses-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .panel-description {
+    max-width: 400px;
+    margin: 0;
+    text-align: right;
+  }
+
+  .course-filters {
+    gap: 10px;
+    padding-top: 22px;
+  }
+
+  .filter-button {
+    min-height: 42px;
+    padding-inline: 17px;
+    font-size: 0.86rem;
+  }
+
+  .course-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .course-card {
+    padding: 16px;
+  }
+
+  .footer-inner {
+    min-height: 92px;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 24px;
+    padding-block: 20px;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  .modified {
+    text-align: right;
+  }
+}
+
+@media (min-width: 1000px) {
+  .home-grid {
+    grid-template-columns: minmax(0, 1.65fr) minmax(300px, 0.9fr);
+    gap: 24px;
+  }
+
+  .course-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

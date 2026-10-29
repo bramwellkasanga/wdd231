@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Bramwell Kasanga's WDD 231 course home page, featuring an introduction and Web and Computer Programming certificate courses."
+    />
+    <meta name="author" content="Bramwell Kasanga" />
+    <meta name="theme-color" content="#183c36" />
+    <title>Home | Bramwell Kasanga | WDD 231</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="identity" href="index.html" aria-label="WDD 231 home">
+          <span class="logo-frame">
+            <img
+              class="site-logo"
+              src="https://byui-cse.github.io/wdd231-ww-course/images/byui-logo.svg"
+              alt="Brigham Young University-Idaho"
+            />
+          </span>
+          <span class="student-name">Bramwell <span>Kasanga</span></span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+          <a class="nav-link current" href="index.html" aria-current="page">Home</a>
+          <a class="nav-link" href="chamber/">Chamber</a>
+          <a class="nav-link" href="final/">Final</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <div class="page-title">
+        <p class="eyebrow">WDD 231 · Web Frontend Development I</p>
+        <h1>Home</h1>
+      </div>
+
+      <div class="home-grid">
+        <section class="panel about-panel" aria-labelledby="about-heading">
+          <div class="panel-heading">
+            <span class="section-index">01</span>
+            <h2 id="about-heading">About Me</h2>
+          </div>
+          <div class="about-copy">
+            <p>
+              Hello! I’m Bramwell Kasanga. I’m studying web frontend development
+              and enjoy learning how thoughtful design and well-structured code
+              can make the web more useful for everyone.
+            </p>
+            <p>
+              This page is my WDD 231 course home, where I’ll keep track of my
+              learning and progress toward the Web and Computer Programming
+              certificate.
+            </p>
+          </div>
+        </section>
+
+        <section class="panel photo-panel" aria-labelledby="photo-heading">
+          <div class="panel-heading">
+            <span class="section-index">02</span>
+            <h2 id="photo-heading">Student Photo</h2>
+          </div>
+          <figure class="profile-figure">
+            <img
+              class="profile-image"
+              src="images/profile-card.jpg"
+              alt="Bramwell Kasanga outdoors beside a pool."
+              width="720"
+              height="405"
+            />
+            <figcaption>Bramwell Kasanga</figcaption>
+          </figure>
+        </section>
+
+        <section class="panel courses-panel" aria-labelledby="courses-heading">
+          <div class="panel-heading courses-heading">
+            <div class="heading-label">
+              <span class="section-index">03</span>
+              <h2 id="courses-heading">Web Certificate Courses</h2>
+            </div>
+            <p class="panel-description">
+              Web and Computer Programming certificate · Select a subject to filter the courses.
+            </p>
+          </div>
+          <div class="course-filters" role="group" aria-label="Filter courses">
+            <button class="filter-button selected" type="button" data-filter="ALL" aria-pressed="true">
+              All Courses
+            </button>
+            <button class="filter-button" type="button" data-filter="WDD" aria-pressed="false">
+              WDD Courses
+            </button>
+            <button class="filter-button" type="button" data-filter="CSE" aria-pressed="false">
+              CSE Courses
+            </button>
+          </div>
+          <p class="course-summary" id="course-summary" aria-live="polite"></p>
+          <div class="course-list" id="course-list" aria-live="polite"></div>
+          <noscript>
+            <p class="noscript-message">
+              Enable JavaScript to view and filter the certificate course list.
+            </p>
+          </noscript>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="social-links" aria-label="Social media">
+          <a
+            class="social-link"
+            href="https://github.com/bramwellkasanga/wdd231"
+            aria-label="Bramwell Kasanga on GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="social-mark github-mark" aria-hidden="true">GH</span>
+            <span>GitHub</span>
+          </a>
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/in/bramwell-kasanga"
+            aria-label="Bramwell Kasanga on LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="social-mark linkedin-mark" aria-hidden="true">in</span>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+        <p class="copyright">
+          &copy; <span id="currentyear"></span> Bramwell Kasanga
+          <span class="footer-location">· Germiston, South Africa</span>
+        </p>
+        <p class="modified">Last modified: <span id="lastModified"></span></p>
+      </div>
+    </footer>
+  </body>
+</html>
