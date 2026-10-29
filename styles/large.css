@@ -1,7 +1,5 @@
 @media (min-width: 700px) {
-  .header-inner,
-  .page-shell,
-  .footer-inner {
+  :is(.header-inner, .page-shell, .footer-inner) {
     width: min(1120px, calc(100% - 64px));
   }
 
@@ -31,8 +29,7 @@
     display: none;
   }
 
-  .site-nav,
-  .site-nav.is-open {
+  :is(.site-nav, .site-nav.is-open) {
     position: static;
     display: flex;
     gap: 5px;
@@ -42,10 +39,7 @@
     background: #0000;
   }
 
-  .site-nav,
-  .site-nav.is-open,
-  .courses-heading,
-  .footer-inner {
+  :is(.site-nav, .site-nav.is-open, .courses-heading, .footer-inner) {
     align-items: center;
   }
 
@@ -67,8 +61,7 @@
     padding-bottom: 58px;
   }
 
-  .panel,
-  .courses-panel {
+  :is(.panel, .courses-panel) {
     padding: 26px;
   }
 
