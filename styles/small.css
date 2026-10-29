@@ -139,7 +139,7 @@ button {
 .nav-link:hover,
 .nav-link:focus-visible,
 .nav-link.current {
-  background: rgb(255 255 255 / 12%);
+  background: #31574f;
   color: var(--white);
 }
 
