@@ -3,7 +3,7 @@
     "name": "Kopano Creative Studio",
     "address": "18 Sample Street, Germiston, Gauteng",
     "phone": "+27 11 000 0101",
-    "website": "https://kopano-creative.example",
+    "website": "https://kopano-creative.test",
     "image": "kopano-creative.svg",
     "membershipLevel": 3,
     "description": "Brand strategy and creative services for small and growing businesses."
@@ -12,7 +12,7 @@
     "name": "Golden Route Logistics",
     "address": "42 Foundry Road, Germiston, Gauteng",
     "phone": "+27 11 000 0102",
-    "website": "https://golden-route-logistics.example",
+    "website": "https://golden-route-logistics.test",
     "image": "golden-route.svg",
     "membershipLevel": 2,
     "description": "Local delivery and distribution solutions for independent retailers."
@@ -21,7 +21,7 @@
     "name": "Ubuntu Family Dental",
     "address": "7 Market Lane, Germiston, Gauteng",
     "phone": "+27 11 000 0103",
-    "website": "https://ubuntu-family-dental.example",
+    "website": "https://ubuntu-family-dental.test",
     "image": "ubuntu-dental.svg",
     "membershipLevel": 2,
     "description": "Friendly general dental care for families and local professionals."
@@ -30,7 +30,7 @@
     "name": "Metsi Garden and Home",
     "address": "26 Lakeview Avenue, Germiston, Gauteng",
     "phone": "+27 11 000 0104",
-    "website": "https://metsi-garden-home.example",
+    "website": "https://metsi-garden-home.test",
     "image": "metsi-garden.svg",
     "membershipLevel": 1,
     "description": "Plants, garden essentials, and practical advice for greener homes."
@@ -39,7 +39,7 @@
     "name": "Thuto Learning Hub",
     "address": "11 Station Road, Germiston, Gauteng",
     "phone": "+27 11 000 0105",
-    "website": "https://thuto-learning.example",
+    "website": "https://thuto-learning.test",
     "image": "thuto-learning.svg",
     "membershipLevel": 3,
     "description": "Tutoring and skills workshops for learners and adult students."
@@ -48,7 +48,7 @@
     "name": "Imbizo Accounting Partners",
     "address": "33 Main Street, Germiston, Gauteng",
     "phone": "+27 11 000 0106",
-    "website": "https://imbizo-accounting.example",
+    "website": "https://imbizo-accounting.test",
     "image": "imbizo-accounting.svg",
     "membershipLevel": 2,
     "description": "Bookkeeping, tax preparation, and financial guidance for local firms."
@@ -57,7 +57,7 @@
     "name": "Khanya Coffee House",
     "address": "5 Market Square, Germiston, Gauteng",
     "phone": "+27 11 000 0107",
-    "website": "https://khanya-coffee.example",
+    "website": "https://khanya-coffee.test",
     "image": "khanya-coffee.svg",
     "membershipLevel": 1,
     "description": "A neighborhood cafe serving locally roasted coffee and light meals."
