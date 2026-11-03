@@ -229,20 +229,16 @@ button:focus-visible {
 }
 
 .grid-icon {
-  background:
-    linear-gradient(currentColor 0 0) 0 0 / 6px 6px,
-    linear-gradient(currentColor 0 0) 10px 0 / 6px 6px,
-    linear-gradient(currentColor 0 0) 0 10px / 6px 6px,
-    linear-gradient(currentColor 0 0) 10px 10px / 6px 6px;
-  background-repeat: no-repeat;
+  width: 6px;
+  height: 6px;
+  background-color: currentColor;
+  box-shadow: 10px 0 currentColor, 0 10px currentColor, 10px 10px currentColor;
 }
 
 .list-icon {
-  background:
-    linear-gradient(currentColor 0 0) 0 1px / 16px 3px,
-    linear-gradient(currentColor 0 0) 0 7px / 16px 3px,
-    linear-gradient(currentColor 0 0) 0 13px / 16px 3px;
-  background-repeat: no-repeat;
+  height: 3px;
+  background-color: currentColor;
+  box-shadow: 0 6px currentColor, 0 12px currentColor;
 }
 
 .member-directory {
