@@ -176,6 +176,62 @@ button:focus-visible {
   padding-bottom: 3rem;
 }
 
+.content-section {
+  padding: 0 0 2rem;
+}
+
+.content-section h2 {
+  margin-bottom: 0.75rem;
+  color: #183c36;
+  font-size: 1.5rem;
+}
+
+.content-section > p {
+  max-width: 760px;
+  color: #465a53;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.content-card {
+  padding: 1.25rem;
+  border: 1px solid #d9e1dc;
+  border-radius: 0.65rem;
+  background: #fff;
+}
+
+.content-card h3 {
+  margin-bottom: 0.4rem;
+  color: #183c36;
+  font-size: 1.1rem;
+}
+
+.content-card p {
+  color: #465a53;
+}
+
+.action-link {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 0.55rem 0.85rem;
+  border-radius: 0.35rem;
+  color: #fff;
+  background: #183c36;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.action-link:hover,
+.action-link:focus-visible {
+  color: #183c36;
+  background: #e4c47f;
+}
+
 .directory-toolbar {
   display: flex;
   flex-wrap: wrap;

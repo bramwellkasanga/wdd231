@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Connect with local businesses and learn about the Germiston Chamber of Commerce."
+    >
+    <meta name="author" content="Bramwell Kasanga">
+    <meta name="theme-color" content="#183c36">
+    <meta property="og:title" content="Germiston Chamber of Commerce">
+    <meta
+      property="og:description"
+      content="Connect with local businesses and learn about the Germiston Chamber of Commerce."
+    >
+    <meta
+      property="og:image"
+      content="https://bramwellkasanga.github.io/wdd231/chamber/images/chamber-social.png"
+    >
+    <meta property="og:url" content="https://bramwellkasanga.github.io/wdd231/chamber/">
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <title>Home | Germiston Chamber of Commerce</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Germiston Chamber home">
+          <img src="images/chamber-mark.svg" width="48" height="48" alt="">
+          <span class="brand-copy">
+            <span class="brand-name">Germiston</span>
+            <span class="brand-subtitle">Chamber of Commerce</span>
+          </span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+          <a class="nav-link current" href="index.html" aria-current="page">Home</a>
+          <a class="nav-link" href="discover.html">Discover</a>
+          <a class="nav-link" href="directory.html">Directory</a>
+          <a class="nav-link join-link" href="join.html">Join</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="page-shell">
+      <section class="page-intro" aria-labelledby="page-title">
+        <p class="eyebrow">Connect local · Grow together</p>
+        <h1 id="page-title">A stronger local business community starts with connection.</h1>
+        <p>
+          The Germiston Chamber of Commerce brings local businesses and the wider
+          community together through visibility, useful resources, and opportunities
+          to connect.
+        </p>
+        <a class="action-link" href="directory.html">Explore member businesses</a>
+      </section>
+
+      <section class="content-section" aria-labelledby="explore-title">
+        <h2 id="explore-title">Explore the chamber</h2>
+        <div class="content-grid">
+          <article class="content-card">
+            <h3>Find local businesses</h3>
+            <p>
+              Browse member services and contact information in the Germiston
+              business directory.
+            </p>
+            <a href="directory.html">Visit the directory</a>
+          </article>
+          <article class="content-card">
+            <h3>Discover Germiston</h3>
+            <p>
+              Learn about the community and the local business area served by the
+              chamber.
+            </p>
+            <a href="discover.html">Discover the area</a>
+          </article>
+          <article class="content-card">
+            <h3>Connect with the chamber</h3>
+            <p>
+              Explore how chamber membership can help businesses build connections
+              and visibility.
+            </p>
+            <a href="join.html">Learn about membership</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-contact">
+          <a class="footer-brand" href="index.html">Germiston Chamber of Commerce</a>
+          <p>Germiston, Gauteng, South Africa</p>
+          <p><a href="mailto:info@germistonchamber.example">info@germistonchamber.example</a></p>
+        </div>
+        <div class="footer-details">
+          <p>Bramwell Kasanga | WDD 231</p>
+          <p>&copy; <span id="currentyear"></span> Germiston Chamber</p>
+          <p>Last modified: <span id="lastModified"></span></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
