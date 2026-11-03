@@ -7,6 +7,5 @@ if (currentYear) {
 
 if (lastModified) {
   const modifiedDate = new Date(document.lastModified).toISOString();
-  lastModified.dateTime = modifiedDate;
   lastModified.textContent = modifiedDate;
 }
