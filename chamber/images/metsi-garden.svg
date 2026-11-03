@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+  <rect width="320" height="180" rx="16" fill="#e9f0df"/>
+  <path d="M98 114c-44 0-50-47-48-57 43 2 62 18 58 47 7-43 38-56 68-54-4 44-28 68-65 64v20H98z" fill="#56834a"/>
+  <path d="M68 112h78l-8 29H76z" fill="#c2764d"/>
+  <text x="184" y="83" fill="#355b31" font-family="Arial,sans-serif" font-size="17" font-weight="700">METSI</text>
+  <text x="184" y="108" fill="#607b50" font-family="Arial,sans-serif" font-size="12">GARDEN &amp; HOME</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+  <rect width="320" height="180" rx="16" fill="#e8eef5"/>
+  <path d="m60 114 25-43h39l26 43z" fill="#214d73"/>
+  <circle cx="88" cy="119" r="12" fill="#f4b942"/>
+  <circle cx="134" cy="119" r="12" fill="#f4b942"/>
+  <text x="169" y="82" fill="#193c5a" font-family="Arial,sans-serif" font-size="17" font-weight="700">GOLDEN ROUTE</text>
+  <text x="169" y="107" fill="#55718b" font-family="Arial,sans-serif" font-size="13">LOGISTICS</text>
+</svg>

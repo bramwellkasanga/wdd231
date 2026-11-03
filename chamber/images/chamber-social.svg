@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#183c36"/>
+  <circle cx="1010" cy="315" r="250" fill="#244f46"/>
+  <circle cx="1010" cy="315" r="190" fill="#d6a64f"/>
+  <path d="M1010 171 1163 289h-49v167H906V289h-49zm0 72-54 42v117h108V285z" fill="#183c36" fill-rule="evenodd"/>
+  <text x="88" y="215" fill="#e4c47f" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="5">CONNECT LOCAL · GROW TOGETHER</text>
+  <text x="82" y="315" fill="#ffffff" font-family="Arial, sans-serif" font-size="70" font-weight="700">Germiston Chamber</text>
+  <text x="88" y="375" fill="#e5ece8" font-family="Arial, sans-serif" font-size="34">Business Directory</text>
+  <text x="88" y="500" fill="#e5ece8" font-family="Arial, sans-serif" font-size="25">Discover businesses serving our community.</text>
+</svg>

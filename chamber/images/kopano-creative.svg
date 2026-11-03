@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+  <rect width="320" height="180" rx="16" fill="#f3e8df"/>
+  <circle cx="100" cy="90" r="48" fill="#a74d36"/>
+  <path d="M76 104 99 57l23 47-23-13z" fill="#fff5e8"/>
+  <text x="165" y="83" fill="#4a2d27" font-family="Arial,sans-serif" font-size="22" font-weight="700">KOPANO</text>
+  <text x="165" y="110" fill="#76564b" font-family="Arial,sans-serif" font-size="14">CREATIVE STUDIO</text>
+</svg>

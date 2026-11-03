@@ -1,0 +1,82 @@
+:root {
+  color: #172a26;
+  background: #f3f5f1;
+  font-family: "DM Sans", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.page-header,
+.page-footer {
+  padding: 1.25rem;
+  color: #fff;
+  background: #183c36;
+  text-align: center;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 5vw, 2.8rem);
+}
+
+main {
+  width: min(1200px, calc(100% - 2rem));
+  margin: 2rem auto;
+}
+
+.prophet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 1.25rem;
+}
+
+.prophet-card {
+  display: grid;
+  align-content: start;
+  justify-items: center;
+  gap: 0.5rem;
+  padding: 1.25rem;
+  border: 1px solid #d9e1dc;
+  border-radius: 0.5rem;
+  background: #fff;
+  text-align: center;
+}
+
+.prophet-card h2 {
+  margin: 0;
+  color: #183c36;
+  font-size: 1.25rem;
+}
+
+.prophet-card p {
+  margin: 0;
+}
+
+.prophet-card img {
+  width: min(100%, 340px);
+  height: auto;
+  aspect-ratio: 340 / 440;
+  border-radius: 0.25rem;
+  object-fit: cover;
+}
+
+.error-message {
+  grid-column: 1 / -1;
+  color: #8d1c1c;
+  text-align: center;
+}
+
+.page-footer {
+  margin-top: 2rem;
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+  <rect width="320" height="180" rx="16" fill="#f2e9dd"/>
+  <path d="M58 67h79v47a29 29 0 0 1-29 29H87a29 29 0 0 1-29-29zm79 12h15a18 18 0 0 1 0 36h-15" fill="none" stroke="#8d5739" stroke-linejoin="round" stroke-width="10"/>
+  <path d="M82 57c-10-12 8-14 0-27m25 27c-10-12 8-14 0-27" fill="none" stroke="#c58b53" stroke-linecap="round" stroke-width="5"/>
+  <text x="175" y="83" fill="#5a3827" font-family="Arial,sans-serif" font-size="17" font-weight="700">KHANYA</text>
+  <text x="175" y="108" fill="#8a654f" font-family="Arial,sans-serif" font-size="12">COFFEE HOUSE</text>
+</svg>

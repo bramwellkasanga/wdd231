@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+  <rect width="320" height="180" rx="16" fill="#eee8f5"/>
+  <path d="m48 73 54-28 54 28-54 28zm16 12 38 20 38-20v34l-38 20-38-20z" fill="#72529a"/>
+  <text x="181" y="83" fill="#4d356f" font-family="Arial,sans-serif" font-size="18" font-weight="700">THUTO</text>
+  <text x="181" y="108" fill="#746286" font-family="Arial,sans-serif" font-size="12">LEARNING HUB</text>
+</svg>

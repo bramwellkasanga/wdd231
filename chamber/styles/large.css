@@ -1,0 +1,68 @@
+@media (min-width: 760px) {
+  .header-inner,
+  .page-shell,
+  .footer-inner {
+    width: min(1120px, calc(100% - 4rem));
+  }
+
+  .header-inner {
+    min-height: 86px;
+  }
+
+  .brand img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .brand-name {
+    font-size: 1.2rem;
+  }
+
+  .brand-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .site-nav,
+  .site-nav.is-open {
+    position: static;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .nav-link {
+    padding: 0.6rem 0.8rem;
+  }
+
+  .page-intro {
+    padding-top: 3.75rem;
+  }
+
+  .member-directory {
+    gap: 1.25rem;
+  }
+
+  .view-list .member-card {
+    grid-template-columns: 160px minmax(0, 1fr);
+    align-items: center;
+    padding: 1rem 1.5rem;
+  }
+
+  .view-list .member-logo {
+    height: 110px;
+    grid-row: span 3;
+  }
+
+  .view-list .member-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.25rem;
+  }
+}

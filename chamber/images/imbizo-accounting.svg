@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+  <rect width="320" height="180" rx="16" fill="#e7edf0"/>
+  <path d="M56 126V99h24v27zm34 0V73h24v53zm34 0V51h24v75z" fill="#326478"/>
+  <path d="m56 85 36-25 34 8 30-28" fill="none" stroke="#d6a64f" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+  <text x="175" y="82" fill="#274b5b" font-family="Arial,sans-serif" font-size="15" font-weight="700">IMBIZO</text>
+  <text x="175" y="106" fill="#5c7480" font-family="Arial,sans-serif" font-size="11">ACCOUNTING PARTNERS</text>
+</svg>

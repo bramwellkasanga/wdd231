@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+  <rect width="320" height="180" rx="16" fill="#e3f1ed"/>
+  <path d="M98 49c-23 0-35 17-28 40l13 39c4 11 13 12 17 1l10-27 10 27c4 11 13 10 17-1l13-39c7-23-5-40-28-40-9 0-11 6-17 6s-8-6-17-6" fill="#258674"/>
+  <text x="169" y="83" fill="#165a4f" font-family="Arial,sans-serif" font-size="18" font-weight="700">UBUNTU</text>
+  <text x="169" y="108" fill="#4e7a70" font-family="Arial,sans-serif" font-size="13">FAMILY DENTAL</text>
+</svg>
