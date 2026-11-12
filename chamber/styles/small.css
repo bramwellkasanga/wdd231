@@ -356,13 +356,9 @@ button:focus-visible {
   padding: 0.2rem 0.65rem;
   border-radius: 999px;
   color: #183c36;
-  background: #e7eee9;
-  font-size: 0.78rem;
-  font-weight: 700;
-}
-
-.membership-badge.silver {
   background: #e8ebee;
+  font-size: 0.75rem;
+  font-weight: 700;
 }
 
 .membership-badge.gold {
@@ -640,19 +636,6 @@ button:focus-visible {
 
 .spotlight-details a {
   font-weight: 600;
-}
-
-.membership-badge {
-  padding: 0.2rem 0.65rem;
-  border-radius: 999px;
-  color: #183c36;
-  background: #e8ebee;
-  font-size: 0.75rem;
-  font-weight: 700;
-}
-
-.membership-badge.gold {
-  background: #f4e8c9;
 }
 
 .weather-status {
