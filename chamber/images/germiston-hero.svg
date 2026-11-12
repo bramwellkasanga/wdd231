@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#b6d5ca"/>
+      <stop offset=".58" stop-color="#f0d7a2"/>
+      <stop offset="1" stop-color="#e9b873"/>
+    </linearGradient>
+    <linearGradient id="street" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#66786b"/>
+      <stop offset="1" stop-color="#253f37"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="760" fill="url(#sky)"/>
+  <circle cx="1195" cy="170" r="82" fill="#f8e6b9" opacity=".92"/>
+  <path d="M0 416 165 330l142 78 172-126 153 126 165-82 148 89 139-119 162 95 158-88 196 119v168H0z" fill="#829a87" opacity=".58"/>
+  <path d="M0 475 152 418l123 38 151-92 148 103 146-81 125 61 153-104 154 94 148-66 200 94v137H0z" fill="#526f61"/>
+  <path d="M0 553h1600v207H0z" fill="url(#street)"/>
+  <path d="m665 760 145-207h176l195 207z" fill="#d3bd8f" opacity=".8"/>
+  <path d="M0 540h1600v27H0z" fill="#e2c47f"/>
+  <g fill="#f3f0de">
+    <path d="M112 440h174v130H112z"/>
+    <path d="M324 406h185v164H324z"/>
+    <path d="M1380 419h150v151h-150z"/>
+  </g>
+  <g fill="#183c36">
+    <path d="M92 440h214l-19-32H111z"/>
+    <path d="M307 406h220l-22-34H329z"/>
+    <path d="M1362 419h186l-18-32h-150z"/>
+  </g>
+  <g fill="#d6a64f">
+    <rect x="132" y="469" width="38" height="43" rx="3"/>
+    <rect x="190" y="469" width="70" height="101" rx="3"/>
+    <rect x="351" y="435" width="40" height="45" rx="3"/>
+    <rect x="414" y="435" width="70" height="135" rx="3"/>
+    <rect x="1405" y="448" width="44" height="46" rx="3"/>
+    <rect x="1470" y="448" width="38" height="122" rx="3"/>
+  </g>
+  <g fill="#183c36" opacity=".8">
+    <path d="M590 486h14v67h-14zm28-17h14v84h-14zm-59 35h13v49h-13zm443-5h14v48h-14zm29-36h14v84h-14zm-58 20h13v64h-13z"/>
+    <path d="M690 551h14v45h-14zm51-18h14v61h-14zm107-13h14v75h-14zm202 27h14v48h-14z"/>
+  </g>
+  <path d="M0 672q300-57 610 2t990-15v101H0z" fill="#183c36" opacity=".45"/>
+</svg>

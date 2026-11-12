@@ -49,6 +49,29 @@
     gap: 1.25rem;
   }
 
+  .home-hero {
+    min-height: 490px;
+    margin-block: 2rem 2.5rem;
+  }
+
+  .hero-content {
+    min-height: 490px;
+    padding: 3.5rem;
+  }
+
+  .home-layout {
+    grid-template-columns: minmax(0, 1.7fr) minmax(280px, 0.8fr);
+    align-items: start;
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+  }
+
+  .home-section,
+  .weather-panel,
+  .community-card {
+    padding: 1.5rem;
+  }
+
   .view-list .member-card {
     grid-template-columns: 160px minmax(0, 1fr);
     align-items: center;
