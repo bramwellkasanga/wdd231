@@ -8,6 +8,17 @@ const membershipLabels = {
   gold: "Gold Membership",
 };
 
+const formatTimestamp = (timestamp) => {
+  const submittedAt = new Date(timestamp);
+  if (Number.isNaN(submittedAt.getTime())) {
+    return timestamp;
+  }
+  return submittedAt.toLocaleString(undefined, {
+    dateStyle: "medium",
+    timeStyle: "medium",
+  });
+};
+
 const requiredFields = {
   firstName: params.get("firstName"),
   lastName: params.get("lastName"),
@@ -30,7 +41,7 @@ if (Object.values(requiredFields).some((value) => !value)) {
     "#summary-membership": membershipLabels[params.get("membership")] || "Not selected",
     "#summary-organization-title": params.get("organizationTitle") || "Not provided",
     "#summary-description": params.get("description") || "Not provided",
-    "#summary-timestamp": requiredFields.timestamp,
+    "#summary-timestamp": formatTimestamp(requiredFields.timestamp),
   };
 
   Object.entries(summaryValues).forEach(([selector, value]) => {
