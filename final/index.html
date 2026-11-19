@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Explore Gauteng's gardens, nature reserves, parks, and trails with a practical guide to outdoor places around Johannesburg and Pretoria."
+    >
+    <meta name="author" content="Bramwell Kasanga">
+    <meta name="theme-color" content="#183c36">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gauteng Outdoors | Find a place to explore">
+    <meta
+      property="og:description"
+      content="A practical guide to gardens, nature reserves, parks, and trails around Gauteng."
+    >
+    <meta
+      property="og:image"
+      content="https://bramwellkasanga.github.io/wdd231/final/images/gauteng-landscape.svg"
+    >
+    <meta property="og:url" content="https://bramwellkasanga.github.io/wdd231/final/">
+    <link rel="icon" href="images/trail-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/site.css">
+    <script type="module" src="scripts/home.mjs"></script>
+    <title>Gauteng Outdoors | Find a place to explore</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Gauteng Outdoors home">
+          <img
+            src="images/trail-mark.svg"
+            width="48"
+            height="48"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          >
+          <span class="brand-copy">
+            <span class="brand-name">Gauteng Outdoors</span>
+            <span class="brand-subtitle">Find your next green escape</span>
+          </span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+          <a class="nav-link current" href="index.html" aria-current="page">Home</a>
+          <a class="nav-link" href="places.html">Explore places</a>
+          <a class="nav-link" href="plan.html">Plan a visit</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="page-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">A little closer to nature</p>
+          <h1 id="page-title">Find your next green escape in Gauteng.</h1>
+          <p>
+            From city parks to highveld trails, discover outdoor places for a
+            walk, a picnic, or a full day out.
+          </p>
+          <a class="button-link" href="places.html">Explore 15 places</a>
+        </div>
+        <img
+          class="hero-art"
+          src="images/gauteng-landscape.svg"
+          width="1200"
+          height="650"
+          alt="Illustration of a winding trail through green Gauteng hills at sunrise"
+          loading="lazy"
+          decoding="async"
+        >
+      </section>
+
+      <section class="section-block" aria-labelledby="featured-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Start exploring</p>
+            <h2 id="featured-title">A few places to get you going</h2>
+          </div>
+          <a class="text-link" href="places.html">See all places</a>
+        </div>
+        <p class="status-message" id="home-status" aria-live="polite">
+          Loading outdoor places…
+        </p>
+        <div class="feature-grid" id="featured-places"></div>
+        <noscript>
+          <p class="notice">Enable JavaScript to load the place guide.</p>
+        </noscript>
+      </section>
+
+      <section class="save-banner" aria-labelledby="saved-title">
+        <div>
+          <p class="eyebrow">Keep your shortlist close</p>
+          <h2 id="saved-title">Save places for later.</h2>
+          <p>Your saved places stay in this browser using local storage.</p>
+        </div>
+        <p class="saved-count" id="saved-count" aria-live="polite">Loading saved places…</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="footer-brand" href="index.html">Gauteng Outdoors</a>
+        <p>Outdoor inspiration for Johannesburg, Pretoria, and beyond.</p>
+        <div class="footer-meta">
+          <p>&copy; <span data-current-year></span> Bramwell Kasanga · WDD 231</p>
+          <a href="attributions.html">Attributions and visitor notes</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

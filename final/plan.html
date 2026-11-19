@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Build a simple Gauteng day-out plan by choosing a place, date, and activity, then review your submitted trip details."
+    >
+    <meta name="author" content="Bramwell Kasanga">
+    <meta name="theme-color" content="#183c36">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Plan a Visit | Gauteng Outdoors">
+    <meta
+      property="og:description"
+      content="Make a simple plan for your next outdoor day in Gauteng."
+    >
+    <meta
+      property="og:image"
+      content="https://bramwellkasanga.github.io/wdd231/final/images/gauteng-landscape.svg"
+    >
+    <meta
+      property="og:url"
+      content="https://bramwellkasanga.github.io/wdd231/final/plan.html"
+    >
+    <link rel="icon" href="images/trail-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/site.css">
+    <script type="module" src="scripts/plan.mjs"></script>
+    <title>Plan a Visit | Gauteng Outdoors</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Gauteng Outdoors home">
+          <img
+            src="images/trail-mark.svg"
+            width="48"
+            height="48"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          >
+          <span class="brand-copy">
+            <span class="brand-name">Gauteng Outdoors</span>
+            <span class="brand-subtitle">Find your next green escape</span>
+          </span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="places.html">Explore places</a>
+          <a class="nav-link current" href="plan.html" aria-current="page">Plan a visit</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="page-shell">
+      <section class="page-intro" aria-labelledby="page-title">
+        <p class="eyebrow">Make a day of it</p>
+        <h1 id="page-title">Plan your next outdoor break.</h1>
+        <p>
+          Choose a destination and an activity to create a simple personal
+          itinerary. The preview is generated from your form submission.
+        </p>
+      </section>
+
+      <section class="form-layout" aria-labelledby="form-title">
+        <div class="form-intro">
+          <p class="eyebrow">Your day, your pace</p>
+          <h2 id="form-title">Build a visit plan</h2>
+          <p>
+            Before heading out, check official visitor information, weather,
+            transport, and any safety guidance for your chosen location.
+          </p>
+          <p class="status-message" id="plan-status" aria-live="polite">
+            Loading destinations…
+          </p>
+        </div>
+        <form class="visit-form" action="submitted.html" method="get">
+          <label>
+            <span>Your name</span>
+            <input name="name" type="text" autocomplete="name" maxlength="60" required>
+          </label>
+          <label>
+            <span>Place</span>
+            <select id="visit-place" name="place" required>
+              <option value="">Choose a place</option>
+            </select>
+          </label>
+          <label>
+            <span>Planned date</span>
+            <input id="visit-date" name="date" type="date" required>
+          </label>
+          <label>
+            <span>What would you like to do?</span>
+            <select name="activity" required>
+              <option value="">Choose an activity</option>
+              <option>Walking or hiking</option>
+              <option>Birdwatching</option>
+              <option>Picnic</option>
+              <option>Cycling</option>
+              <option>Nature photography</option>
+              <option>Other outdoor activity</option>
+            </select>
+          </label>
+          <label>
+            <span>Notes for your day <span class="optional">(optional)</span></span>
+            <textarea name="notes" rows="4" maxlength="300"></textarea>
+          </label>
+          <button class="button-link" type="submit">Review my plan</button>
+          <p class="privacy-note">
+            This static demo uses a GET form, so values appear in the address bar
+            and browser history. Do not include private or sensitive information.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="footer-brand" href="index.html">Gauteng Outdoors</a>
+        <p>Outdoor inspiration for Johannesburg, Pretoria, and beyond.</p>
+        <div class="footer-meta">
+          <p>&copy; <span data-current-year></span> Bramwell Kasanga · WDD 231</p>
+          <a href="attributions.html">Attributions and visitor notes</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

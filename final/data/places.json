@@ -1,0 +1,152 @@
+[
+  {
+    "id": "walter-sisulu",
+    "name": "Walter Sisulu National Botanical Garden",
+    "area": "Roodepoort",
+    "category": "Garden",
+    "setting": "Waterfall, grassland, and landscaped gardens",
+    "activities": "Garden walks, birdwatching, and picnics",
+    "visit": "A relaxed half-day visit with clearly marked paths.",
+    "access": "Check the garden's official visitor information for current hours and entry details."
+  },
+  {
+    "id": "klipriviersberg",
+    "name": "Klipriviersberg Nature Reserve",
+    "area": "Johannesburg South",
+    "category": "Nature reserve",
+    "setting": "Rocky ridges, grassland, and wooded kloofs",
+    "activities": "Hiking, walking, and wildlife spotting",
+    "visit": "Choose a route to suit your time and fitness.",
+    "access": "Use designated entrances and check local guidance before setting out."
+  },
+  {
+    "id": "modderfontein",
+    "name": "Modderfontein Reserve",
+    "area": "Modderfontein",
+    "category": "Nature reserve",
+    "setting": "Open grassland, dams, and gentle hills",
+    "activities": "Walking, cycling, and birdwatching",
+    "visit": "A good option for an easy outdoor day close to the city.",
+    "access": "Confirm current access rules and permitted activities with the reserve."
+  },
+  {
+    "id": "hennops",
+    "name": "Hennops Hiking Trail",
+    "area": "Near Centurion",
+    "category": "Trail",
+    "setting": "River valley, hills, and bushveld",
+    "activities": "Hiking, trail running, and outdoor exploration",
+    "visit": "Plan for a half-day outdoors and bring water.",
+    "access": "Check the operator's current trail, safety, and booking information."
+  },
+  {
+    "id": "rietvlei",
+    "name": "Rietvlei Nature Reserve",
+    "area": "Pretoria",
+    "category": "Nature reserve",
+    "setting": "Grassland, wetland, and open water",
+    "activities": "Birdwatching, walking, and nature viewing",
+    "visit": "Allow time to explore the reserve at a comfortable pace.",
+    "access": "Check the City of Tshwane's official visitor information before travel."
+  },
+  {
+    "id": "suikerbosrand",
+    "name": "Suikerbosrand Nature Reserve",
+    "area": "Heidelberg",
+    "category": "Nature reserve",
+    "setting": "Highveld grassland and rugged hills",
+    "activities": "Hiking, scenic drives, and nature viewing",
+    "visit": "A rewarding day trip; prepare for exposed, changeable conditions.",
+    "access": "Confirm access, road, and trail conditions with the reserve."
+  },
+  {
+    "id": "melville-koppies",
+    "name": "Melville Koppies Nature Reserve",
+    "area": "Johannesburg",
+    "category": "Nature reserve",
+    "setting": "Rocky koppies and indigenous grassland",
+    "activities": "Guided walks, hiking, and local history",
+    "visit": "A short city escape with uneven, rocky sections.",
+    "access": "Check the reserve's official schedule for opening days and guided walks."
+  },
+  {
+    "id": "kloofendal",
+    "name": "Kloofendal Municipal Nature Reserve",
+    "area": "Roodepoort",
+    "category": "Nature reserve",
+    "setting": "Rocky ridges, a small dam, and bushveld",
+    "activities": "Walking, hiking, and birdwatching",
+    "visit": "A convenient local outing with a mix of gentle and steeper paths.",
+    "access": "Check municipal notices for current access and activity information."
+  },
+  {
+    "id": "groenkloof",
+    "name": "Groenkloof Nature Reserve",
+    "area": "Pretoria",
+    "category": "Nature reserve",
+    "setting": "Bushveld hills and wooded valleys",
+    "activities": "Hiking, cycling, and wildlife viewing",
+    "visit": "Pick an activity and route that match your group's experience.",
+    "access": "Check the City of Tshwane's official visitor information for current rules."
+  },
+  {
+    "id": "faerie-glen",
+    "name": "Faerie Glen Nature Reserve",
+    "area": "Pretoria",
+    "category": "Nature reserve",
+    "setting": "Ridges, grassland, and a wooded valley",
+    "activities": "Hiking, walking, and birdwatching",
+    "visit": "A scenic local walk with some uphill sections.",
+    "access": "Check current municipal access information before visiting."
+  },
+  {
+    "id": "moreleta-kloof",
+    "name": "Moreleta Kloof Nature Reserve",
+    "area": "Pretoria East",
+    "category": "Nature reserve",
+    "setting": "Kloof, grassland, and stream-side paths",
+    "activities": "Walking, birdwatching, and nature photography",
+    "visit": "Suitable for a quiet morning or afternoon walk.",
+    "access": "Confirm opening times and trail notices with the City of Tshwane."
+  },
+  {
+    "id": "delta-park",
+    "name": "Delta Park",
+    "area": "Johannesburg",
+    "category": "Urban park",
+    "setting": "Open lawns, woodland, and wetland",
+    "activities": "Walking, running, picnics, and birdwatching",
+    "visit": "An easy-to-reach green space for a casual outdoor break.",
+    "access": "Follow park signage and check local notices for any temporary closures."
+  },
+  {
+    "id": "gilloolys-farm",
+    "name": "Gillooly's Farm",
+    "area": "Bedfordview",
+    "category": "Urban park",
+    "setting": "Lake, lawns, and mature trees",
+    "activities": "Walking, picnics, and birdwatching",
+    "visit": "A relaxed stop for a walk or outdoor picnic.",
+    "access": "Check current park access and facility information before visiting."
+  },
+  {
+    "id": "the-wilds",
+    "name": "The Wilds Nature Reserve",
+    "area": "Houghton, Johannesburg",
+    "category": "Urban park",
+    "setting": "Rocky slopes, gardens, and city views",
+    "activities": "Walking, photography, and quiet time outdoors",
+    "visit": "Allow time for a slow walk through the landscaped paths.",
+    "access": "Use the signed public entrances and check local safety guidance."
+  },
+  {
+    "id": "cradle-moon",
+    "name": "Cradle Moon Lakeside Game Lodge",
+    "area": "Muldersdrift",
+    "category": "Outdoor venue",
+    "setting": "Lake, bushveld, and open trails",
+    "activities": "Walking, cycling, and water-side recreation",
+    "visit": "A varied day out; check ahead to choose available activities.",
+    "access": "This is a managed venue; check its official site for entry, bookings, and activity rules."
+  }
+]

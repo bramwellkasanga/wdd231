@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title description">
+  <title id="title">Gauteng ridges and grassland</title>
+  <desc id="description">A simple illustration of a winding trail through green highveld hills at sunrise.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#e7c77f"/>
+      <stop offset="1" stop-color="#f3f5f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="650" fill="url(#sky)"/>
+  <circle cx="920" cy="170" r="72" fill="#fff5d5"/>
+  <path d="M0 370 155 235l120 100 170-175 170 198 180-142 130 102 130-104 145 142v294H0Z" fill="#456c51"/>
+  <path d="m0 445 205-130 160 102 170-119 182 128 155-125 164 112 164-79v316H0Z" fill="#78905c"/>
+  <path d="M0 526c190-64 300-30 435-65 165-42 229-64 353-25 115 36 246 28 412-28v242H0Z" fill="#a5ad70"/>
+  <path d="M454 650c34-82 93-116 86-177-6-52-54-78-31-132 18-42 79-57 122-84-5 72-36 110-29 155 10 69 84 100 92 238Z" fill="#ead7a0"/>
+  <path d="M0 565c140-45 226-29 320-12M890 531c105 31 204 17 310-20" fill="none" stroke="#d7ddc0" stroke-linecap="round" stroke-width="8"/>
+</svg>

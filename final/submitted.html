@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Review the Gauteng Outdoors trip plan you submitted from this browser."
+    >
+    <meta name="author" content="Bramwell Kasanga">
+    <meta name="theme-color" content="#183c36">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Your Visit Plan | Gauteng Outdoors">
+    <meta
+      property="og:description"
+      content="Review your personal outdoor visit plan."
+    >
+    <meta
+      property="og:image"
+      content="https://bramwellkasanga.github.io/wdd231/final/images/gauteng-landscape.svg"
+    >
+    <meta
+      property="og:url"
+      content="https://bramwellkasanga.github.io/wdd231/final/submitted.html"
+    >
+    <link rel="icon" href="images/trail-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/site.css">
+    <script type="module" src="scripts/submitted.mjs"></script>
+    <title>Your Visit Plan | Gauteng Outdoors</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Gauteng Outdoors home">
+          <img
+            src="images/trail-mark.svg"
+            width="48"
+            height="48"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          >
+          <span class="brand-copy">
+            <span class="brand-name">Gauteng Outdoors</span>
+            <span class="brand-subtitle">Find your next green escape</span>
+          </span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="places.html">Explore places</a>
+          <a class="nav-link" href="plan.html">Plan a visit</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content" class="page-shell">
+      <section class="page-intro" aria-labelledby="page-title">
+        <p class="eyebrow">Itinerary preview</p>
+        <h1 id="page-title">Your visit plan</h1>
+        <p id="submission-status" class="status-message" aria-live="polite">
+          Loading your plan…
+        </p>
+        <dl class="submission-details" id="submission-details" hidden>
+          <div><dt>Name</dt><dd id="submitted-name"></dd></div>
+          <div><dt>Place</dt><dd id="submitted-place"></dd></div>
+          <div><dt>Date</dt><dd id="submitted-date"></dd></div>
+          <div><dt>Activity</dt><dd id="submitted-activity"></dd></div>
+          <div><dt>Notes</dt><dd id="submitted-notes"></dd></div>
+        </dl>
+        <div class="intro-actions">
+          <a class="button-link" href="plan.html">Make another plan</a>
+          <a class="text-link" href="places.html">Explore places</a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="footer-brand" href="index.html">Gauteng Outdoors</a>
+        <p>Outdoor inspiration for Johannesburg, Pretoria, and beyond.</p>
+        <div class="footer-meta">
+          <p>&copy; <span data-current-year></span> Bramwell Kasanga · WDD 231</p>
+          <a href="attributions.html">Attributions and visitor notes</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

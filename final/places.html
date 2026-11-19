@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Browse 15 Gauteng outdoor places, including gardens, parks, trails, and nature reserves, with activity and access notes."
+    >
+    <meta name="author" content="Bramwell Kasanga">
+    <meta name="theme-color" content="#183c36">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Explore Places | Gauteng Outdoors">
+    <meta
+      property="og:description"
+      content="Browse gardens, parks, trails, and nature reserves around Gauteng."
+    >
+    <meta
+      property="og:image"
+      content="https://bramwellkasanga.github.io/wdd231/final/images/gauteng-landscape.svg"
+    >
+    <meta
+      property="og:url"
+      content="https://bramwellkasanga.github.io/wdd231/final/places.html"
+    >
+    <link rel="icon" href="images/trail-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/site.css">
+    <script type="module" src="scripts/places.mjs"></script>
+    <title>Explore Places | Gauteng Outdoors</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Gauteng Outdoors home">
+          <img
+            src="images/trail-mark.svg"
+            width="48"
+            height="48"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          >
+          <span class="brand-copy">
+            <span class="brand-name">Gauteng Outdoors</span>
+            <span class="brand-subtitle">Find your next green escape</span>
+          </span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link current" href="places.html" aria-current="page">Explore places</a>
+          <a class="nav-link" href="plan.html">Plan a visit</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="page-shell">
+      <section class="page-intro" aria-labelledby="page-title">
+        <p class="eyebrow">The Gauteng field guide</p>
+        <h1 id="page-title">Find a place that fits your day.</h1>
+        <p>
+          Browse a mix of city green spaces and nature escapes. Use the filters
+          to narrow your options, then save places to your shortlist.
+        </p>
+      </section>
+
+      <section class="catalog-section" aria-labelledby="catalog-title">
+        <div class="catalog-heading">
+          <div>
+            <h2 id="catalog-title">Outdoor places</h2>
+            <p class="status-message" id="places-status" aria-live="polite">
+              Loading the place guide…
+            </p>
+          </div>
+          <div class="filters" role="group" aria-label="Filter outdoor places">
+            <label>
+              <span>Search by name or area</span>
+              <input id="place-search" type="search" autocomplete="off">
+            </label>
+            <label>
+              <span>Place type</span>
+              <select id="category-filter">
+                <option value="all">All place types</option>
+              </select>
+            </label>
+            <label class="checkbox-filter">
+              <input id="saved-filter" type="checkbox">
+              <span>Show saved only</span>
+            </label>
+          </div>
+        </div>
+        <div class="place-grid" id="place-list" aria-live="polite"></div>
+        <p class="empty-state" id="empty-state" hidden>
+          No places match these filters. Try a different search or place type.
+        </p>
+        <noscript>
+          <p class="notice">Enable JavaScript to browse and filter the place guide.</p>
+        </noscript>
+      </section>
+    </main>
+
+    <dialog class="place-dialog" id="place-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-content">
+        <form method="dialog" class="dialog-close-form">
+          <button class="icon-button" aria-label="Close place details">Close</button>
+        </form>
+        <p class="eyebrow" id="dialog-category"></p>
+        <h2 id="dialog-title"></h2>
+        <p class="dialog-area" id="dialog-area"></p>
+        <dl class="detail-list">
+          <div><dt>Landscape</dt><dd id="dialog-setting"></dd></div>
+          <div><dt>Things to do</dt><dd id="dialog-activities"></dd></div>
+          <div><dt>Plan your visit</dt><dd id="dialog-visit"></dd></div>
+          <div><dt>Access note</dt><dd id="dialog-access"></dd></div>
+        </dl>
+        <p class="visitor-note">
+          Access and conditions can change. Confirm details with the official
+          site before you travel.
+        </p>
+      </div>
+    </dialog>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="footer-brand" href="index.html">Gauteng Outdoors</a>
+        <p>Outdoor inspiration for Johannesburg, Pretoria, and beyond.</p>
+        <div class="footer-meta">
+          <p>&copy; <span data-current-year></span> Bramwell Kasanga · WDD 231</p>
+          <a href="attributions.html">Attributions and visitor notes</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
