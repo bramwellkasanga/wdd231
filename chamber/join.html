@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Learn how Germiston Chamber membership can support local business visibility and connections."
+      content="Apply for Germiston Chamber membership and compare nonprofit, bronze, silver, and gold member benefits."
     >
     <meta name="author" content="Bramwell Kasanga">
     <meta name="theme-color" content="#183c36">
+    <meta property="og:type" content="website">
     <meta property="og:title" content="Join the Chamber | Germiston Chamber">
     <meta
       property="og:description"
-      content="Explore the benefits of connecting with the Germiston Chamber of Commerce."
+      content="Apply for Germiston Chamber membership and explore four membership levels."
     >
     <meta
       property="og:image"
@@ -35,6 +36,7 @@
     >
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
+    <script src="scripts/membership.js" defer></script>
     <title>Join the Chamber | Germiston Chamber</title>
   </head>
   <body>
@@ -73,39 +75,208 @@
         <p class="eyebrow">Grow your local connections</p>
         <h1 id="page-title">Join the Germiston Chamber</h1>
         <p>
-          Chamber membership is a way for local businesses to build visibility,
-          connect with other organizations, and take part in a stronger business
-          community.
+          Choose a membership level and tell us about your organization. The
+          application takes a few minutes to complete.
         </p>
       </section>
 
-      <section class="content-section" aria-labelledby="benefits-title">
-        <h2 id="benefits-title">Why connect with the chamber?</h2>
-        <div class="content-grid">
-          <article class="content-card">
-            <h3>Increase visibility</h3>
-            <p>
-              Member businesses can be discovered through the chamber's local
-              business directory.
-            </p>
-          </article>
-          <article class="content-card">
-            <h3>Build relationships</h3>
-            <p>
-              Connect with businesses and organizations serving Germiston and the
-              surrounding community.
-            </p>
-          </article>
-          <article class="content-card">
-            <h3>Find opportunities</h3>
-            <p>
-              Stay connected to useful business resources and opportunities to
-              participate in the local community.
-            </p>
-          </article>
+      <div class="join-layout">
+        <section class="join-form-section" aria-labelledby="application-title">
+          <h2 id="application-title">Membership application</h2>
+          <p class="form-guidance">Fields marked required must be completed.</p>
+          <form class="membership-form" action="thankyou.html" method="get">
+            <label>
+              <span>First name <span aria-hidden="true">*</span></span>
+              <input
+                type="text"
+                name="firstName"
+                title="Enter your first name."
+                autocomplete="given-name"
+                required
+              >
+            </label>
+            <label>
+              <span>Last name <span aria-hidden="true">*</span></span>
+              <input
+                type="text"
+                name="lastName"
+                title="Enter your last name."
+                autocomplete="family-name"
+                required
+              >
+            </label>
+            <label>
+              <span>Organizational title</span>
+              <input
+                type="text"
+                name="organizationTitle"
+                title="Use at least seven letters, spaces, or hyphens."
+                autocomplete="organization-title"
+                pattern="[A-Za-z \x2d]{7,}"
+                aria-describedby="title-hint"
+              >
+              <span class="field-hint" id="title-hint">
+                Use at least 7 letters, spaces, or hyphens.
+              </span>
+            </label>
+            <label>
+              <span>Email address <span aria-hidden="true">*</span></span>
+              <input
+                type="email"
+                name="email"
+                title="Enter an email address where the chamber can reach you."
+                autocomplete="email"
+                placeholder="name@example.com"
+                required
+              >
+            </label>
+            <label>
+              <span>Mobile phone number <span aria-hidden="true">*</span></span>
+              <input
+                type="tel"
+                name="phone"
+                title="Enter your mobile phone number."
+                autocomplete="tel"
+                required
+              >
+            </label>
+            <label>
+              <span>Business or organization name <span aria-hidden="true">*</span></span>
+              <input
+                type="text"
+                name="organization"
+                title="Enter your business or organization name."
+                autocomplete="organization"
+                required
+              >
+            </label>
+            <label>
+              <span>Membership level <span aria-hidden="true">*</span></span>
+              <select
+                name="membership"
+                title="Select a membership level."
+                required
+              >
+                <option value="">Choose a membership</option>
+                <option value="np">NP Membership — no fee</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Membership</option>
+                <option value="gold">Gold Membership</option>
+              </select>
+            </label>
+            <label>
+              <span>Business or organization description</span>
+              <textarea
+                name="description"
+                title="Briefly describe your business or organization."
+                rows="5"
+              ></textarea>
+            </label>
+            <input type="hidden" name="timestamp" id="timestamp">
+            <input class="action-link submit-button" type="submit" value="Submit membership application">
+          </form>
+        </section>
+
+        <section class="membership-levels" aria-labelledby="levels-title">
+          <div class="levels-heading">
+            <p class="eyebrow">Find your fit</p>
+            <h2 id="levels-title">Membership levels</h2>
+            <p>Compare the benefits and choose the level that works for you.</p>
+          </div>
+          <div class="membership-card-grid">
+            <article class="membership-card np-card">
+              <p class="membership-cost">No fee</p>
+              <h3>NP Membership</h3>
+              <p>For nonprofit organizations.</p>
+              <a href="#np-dialog" data-dialog-open="np-dialog">View NP benefits</a>
+            </article>
+            <article class="membership-card bronze-card">
+              <p class="membership-cost">R500 / year*</p>
+              <h3>Bronze Membership</h3>
+              <p>Essential visibility and connections.</p>
+              <a href="#bronze-dialog" data-dialog-open="bronze-dialog">View Bronze benefits</a>
+            </article>
+            <article class="membership-card silver-card">
+              <p class="membership-cost">R1,200 / year*</p>
+              <h3>Silver Membership</h3>
+              <p>More ways to promote and participate.</p>
+              <a href="#silver-dialog" data-dialog-open="silver-dialog">View Silver benefits</a>
+            </article>
+            <article class="membership-card gold-card">
+              <p class="membership-cost">R2,500 / year*</p>
+              <h3>Gold Membership</h3>
+              <p>Priority promotion and premium access.</p>
+              <a href="#gold-dialog" data-dialog-open="gold-dialog">View Gold benefits</a>
+            </article>
+          </div>
+          <p class="rate-note">*Illustrative course-project rates, not published chamber dues.</p>
+        </section>
+      </div>
+
+      <dialog class="membership-dialog" id="np-dialog" aria-labelledby="np-dialog-title">
+        <div class="dialog-content">
+          <form method="dialog" class="dialog-close-form">
+            <button class="dialog-close" aria-label="Close NP membership benefits">Close</button>
+          </form>
+          <p class="eyebrow">Membership benefits</p>
+          <h2 id="np-dialog-title">NP Membership</h2>
+          <p>Designed for registered nonprofit organizations.</p>
+          <ul>
+            <li>Free chamber directory listing.</li>
+            <li>Member news and community event updates.</li>
+            <li>Access to nonprofit networking opportunities.</li>
+          </ul>
         </div>
-        <a class="action-link" href="directory.html">Meet chamber members</a>
-      </section>
+      </dialog>
+
+      <dialog class="membership-dialog" id="bronze-dialog" aria-labelledby="bronze-dialog-title">
+        <div class="dialog-content">
+          <form method="dialog" class="dialog-close-form">
+            <button class="dialog-close" aria-label="Close Bronze membership benefits">Close</button>
+          </form>
+          <p class="eyebrow">Membership benefits</p>
+          <h2 id="bronze-dialog-title">Bronze Membership</h2>
+          <p>An entry-level paid membership for growing local organizations.</p>
+          <ul>
+            <li>Business directory listing and member news.</li>
+            <li>Invitations to selected networking events.</li>
+            <li>Member-rate pricing for chamber workshops.</li>
+          </ul>
+        </div>
+      </dialog>
+
+      <dialog class="membership-dialog" id="silver-dialog" aria-labelledby="silver-dialog-title">
+        <div class="dialog-content">
+          <form method="dialog" class="dialog-close-form">
+            <button class="dialog-close" aria-label="Close Silver membership benefits">Close</button>
+          </form>
+          <p class="eyebrow">Membership benefits</p>
+          <h2 id="silver-dialog-title">Silver Membership</h2>
+          <p>For organizations seeking stronger visibility and engagement.</p>
+          <ul>
+            <li>All Bronze benefits.</li>
+            <li>One member business spotlight each year.</li>
+            <li>Discounted event participation and training.</li>
+          </ul>
+        </div>
+      </dialog>
+
+      <dialog class="membership-dialog" id="gold-dialog" aria-labelledby="gold-dialog-title">
+        <div class="dialog-content">
+          <form method="dialog" class="dialog-close-form">
+            <button class="dialog-close" aria-label="Close Gold membership benefits">Close</button>
+          </form>
+          <p class="eyebrow">Membership benefits</p>
+          <h2 id="gold-dialog-title">Gold Membership</h2>
+          <p>Premium support for organizations ready to lead and connect.</p>
+          <ul>
+            <li>All Silver benefits.</li>
+            <li>Priority placement in a chamber business spotlight.</li>
+            <li>Complimentary access to selected chamber events.</li>
+            <li>Priority consideration for training and speaking opportunities.</li>
+          </ul>
+        </div>
+      </dialog>
     </main>
 
     <footer class="site-footer">

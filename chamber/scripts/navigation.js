@@ -25,7 +25,10 @@ if (menuButton && primaryNavigation) {
   });
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") {
+    if (
+      event.key === "Escape" &&
+      menuButton.getAttribute("aria-expanded") === "true"
+    ) {
       closeMenu();
       menuButton.focus();
     }
