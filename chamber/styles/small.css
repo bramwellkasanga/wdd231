@@ -108,7 +108,7 @@ button:focus-visible {
   border: 1px solid #ffffff80;
   border-radius: 0.35rem;
   color: #fff;
-  background: transparent;
+  background: #0000;
   cursor: pointer;
 }
 
@@ -472,7 +472,7 @@ button:focus-visible {
   position: absolute;
   z-index: -1;
   inset: 0;
-  background: linear-gradient(90deg, rgb(15 43 37 / 94%), rgb(15 43 37 / 76%) 52%, rgb(15 43 37 / 18%));
+  background: linear-gradient(90deg, #0f2b25f0, #0f2b25c2 52%, #0f2b252e);
   content: "";
 }
 
