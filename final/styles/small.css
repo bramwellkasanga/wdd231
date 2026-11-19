@@ -154,15 +154,6 @@ textarea:focus-visible {
   display: grid;
 }
 
-.static-nav {
-  position: static;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
-  border: 0;
-  background: transparent;
-}
-
 .nav-link {
   padding: 0.65rem 0.75rem;
   border-radius: 0.25rem;
@@ -589,50 +580,6 @@ textarea:focus-visible {
 
 .site-footer a:not(.footer-brand) {
   color: #f0d7a3;
-}
-
-@media (min-width: 760px) {
-  .header-inner,
-  .page-shell,
-  .footer-inner {
-    width: min(1120px, calc(100% - 4rem));
-  }
-
-  .header-inner {
-    min-height: 86px;
-  }
-
-  .menu-toggle {
-    display: none;
-  }
-
-  .site-nav {
-    position: static;
-    display: flex;
-    align-items: center;
-    gap: 0.35rem;
-    padding: 0;
-    border: 0;
-    background: transparent;
-  }
-
-  .hero {
-    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
-    gap: 2.5rem;
-    padding-block: 3.5rem;
-  }
-
-  .hero-art {
-    min-height: 330px;
-    object-fit: cover;
-  }
-
-  .form-layout {
-    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
-    align-items: start;
-    gap: 1.5rem;
-    padding-bottom: 4rem;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
