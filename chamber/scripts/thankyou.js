@@ -28,7 +28,7 @@ if (Object.values(requiredFields).some((value) => !value)) {
     "#summary-phone": requiredFields.phone,
     "#summary-organization": requiredFields.organization,
     "#summary-membership": membershipLabels[params.get("membership")] || "Not selected",
-    "#summary-title": params.get("organizationTitle") || "Not provided",
+    "#summary-organization-title": params.get("organizationTitle") || "Not provided",
     "#summary-description": params.get("description") || "Not provided",
     "#summary-timestamp": requiredFields.timestamp,
   };

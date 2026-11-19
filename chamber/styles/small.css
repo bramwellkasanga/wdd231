@@ -932,10 +932,6 @@ button:focus-visible {
   color: #465a53;
 }
 
-[hidden] {
-  display: none !important;
-}
-
 @media (prefers-reduced-motion: reduce) {
   .membership-card {
     animation: none;
